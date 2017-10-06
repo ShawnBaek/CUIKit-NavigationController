@@ -13,7 +13,7 @@ Environment
 - iOS 10
 - iOS 11
 
-** Getting Start **
+**Getting Start**
 
 ```
 git clone git@github.com:ShawnBaek/Custom-NavigationBar-iOS11.git
@@ -34,7 +34,7 @@ Height : 66
 StatusBar : Hidden
 
 
-** Don't forget to set SafeArea's top in iOS 11 **
+**Don't forget to set SafeArea's top in iOS 11**
 
 ```
 
@@ -52,6 +52,6 @@ override func viewDidAppear(_ animated: Bool) {
 
         }
 
-    }
+}
 
 ```
