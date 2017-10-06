@@ -1,7 +1,7 @@
 # Custom-NavigationBar-iOS11
 Custom Height for UINavigationBar in iOS 10-11
 
-** It is not a library. It is a Sample Project. **
+**It is not a library. It is a Sample Project.**
 
 You can customizing UINavigationBar Height in iOS 10 and 11.
 
