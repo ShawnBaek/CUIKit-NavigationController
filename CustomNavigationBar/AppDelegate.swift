@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  UINavigationBar Programmatically
 //
-//  Created by BaekSungwook on 2017. 10. 2..
-//  Copyright © 2017년 BaekSungwook. All rights reserved.
+//  Created by ShawnBaek on 2017. 10. 6..
+//  Copyright © 2017 ShawnBaek. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
