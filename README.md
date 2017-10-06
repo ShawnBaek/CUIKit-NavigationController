@@ -20,7 +20,7 @@ git clone git@github.com:ShawnBaek/Custom-NavigationBar-iOS11.git
 
 ```
 
-** Related Issues **
+**Related Issues**
 - Check Related Issues at [StackOverFlow](https://stackoverflow.com/questions/44387285/ios-11-navigation-bar-height-customizing).
 - Check Related Issues at [StackOverFlow](https://stackoverflow.com/questions/46325181/ios-11-unable-to-change-navigation-bar-height/46382032#46382032).
 
