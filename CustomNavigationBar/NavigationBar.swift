@@ -13,6 +13,14 @@ class NavigationBar: UINavigationBar {
     //set NavigationBar's height
     var customHeight : CGFloat = 66
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+
+        if #available(iOS 11, *) {
+            translatesAutoresizingMaskIntoConstraints = false
+        }
+    }
+    
     override func sizeThatFits(_ size: CGSize) -> CGSize {
     
         return CGSize(width: UIScreen.main.bounds.width, height: customHeight)
