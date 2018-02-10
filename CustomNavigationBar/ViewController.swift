@@ -37,7 +37,8 @@ class ViewController: UIViewController {
         if #available(iOS 11.0, *) {
             
             //Default NavigationBar Height is 44. Custom NavigationBar Height is 66. So We should set additionalSafeAreaInsets to 66-44 = 22
-            self.additionalSafeAreaInsets.top = 22
+            //self.additionalSafeAreaInsets.top = 22
+            self.additionalSafeAreaInsets.top = UIApplication.shared.statusBarFrame.size.height
 
         }
         
