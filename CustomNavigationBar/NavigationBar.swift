@@ -11,14 +11,16 @@ import UIKit
 class NavigationBar: UINavigationBar {
 
     //set NavigationBar's height
+    //For iphonex, I recommended to set the minimum height to 88 or higher.
     var customHeight : CGFloat = 66
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        if #available(iOS 11, *) {
-            translatesAutoresizingMaskIntoConstraints = false
-        }
+        
+        translatesAutoresizingMaskIntoConstraints = false
+        
+       
     }
     
     override func sizeThatFits(_ size: CGSize) -> CGSize {
